@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import HabitTracker from "./pages/HabitTracker";
+import HueTrack from "./pages/HueTrack";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Account from "./pages/Account";
@@ -19,7 +19,7 @@ function App() {
             path="/HueTrack"
             element={
               <ProtectedRoutes>
-                <HabitTracker />
+                <HueTrack />
               </ProtectedRoutes>
             }
           />
